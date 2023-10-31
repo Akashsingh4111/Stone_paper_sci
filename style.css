@@ -1,0 +1,142 @@
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: white;
+    background-color: black
+}
+
+#title {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+h3 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+h4 {
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.gamemain {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.Therock,
+.thepaper,
+.thescissor {
+    height: 230px;
+    width: 230px;
+    margin: 0 20px;
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.players {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.you,
+.computer {
+    padding: 0 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.youHead,
+.computerHead {
+    display: flex;
+    justify-content: center;
+}
+
+.yourPoints,
+.computerPoints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.gameFooter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    font-weight: 300;
+}
+
+.Therock:hover,
+.thepaper:hover,
+.thescissor:hover{
+    border-color: gold;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
+.playAgain {
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.again {
+    padding: 10px 15px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.resultsContainer {
+    display: flex;
+    align-items: center;
+}
+
+
